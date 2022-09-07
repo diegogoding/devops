@@ -1,0 +1,14 @@
+branch-defaults:
+  main:
+    environment: devops-dev
+environment-defaults:
+  devops-dev:
+    branch: main
+global:
+  application_name: webserver-dev
+  default_platform: Python 3.8
+  default_region: us-east-1
+  include_git_submodules: true
+  sc: git
+  workspace_type: Application
+version: 2.1

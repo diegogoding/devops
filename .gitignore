@@ -1,3 +1,15 @@
+# editor
+.idea/
+
+# terraform
+.terraform*
+
+# serverless
+node_modules/
+*.zip
+.serverless/requirements
+.serverless
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
